@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="600" maxWidth="572.0" minHeight="600" minWidth="572.0" prefHeight="600.0" prefWidth="572.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="152.0" layoutY="138.0" prefHeight="600.0" prefWidth="572.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="161.0" prefWidth="370.0" text="Chat client" textAlignment="CENTER" textFill="#610d0d" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="48.0" />
+               </font>
+            </Label>
+            <Button fx:id="loginButton" alignment="CENTER" mnemonicParsing="false" onAction="#loginButtonClicked" prefHeight="100.0" prefWidth="289.0" text="Login">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Button>
+            <Button fx:id="highscoreButton" alignment="CENTER" mnemonicParsing="false" onAction="#signUpButtonClicked" prefHeight="100.0" prefWidth="293.0" text="Sign up">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Button>
+            <Button fx:id="quitButton" mnemonicParsing="false" onAction="#quitButtonClicked" prefHeight="86.0" prefWidth="294.0" text="QUIT">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Button>
+         </children></VBox>
+   </children>
+</AnchorPane>
